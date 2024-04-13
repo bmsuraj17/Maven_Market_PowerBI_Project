@@ -15,28 +15,32 @@ Connect to the MavenMarket_Regions csv file and perform the required data transf
 Connect to the MavenMarket_Calendar csv file and perform the required data transformations.
 Connect to the MavenMarket_Returns csv file and perform the required data transformations.
 Connect to the MavenMarket_Transactions folder containing the MavenMarket_Transactions_1997 and MavenMarket_Transactions_1998 csv files and combine them.
+
 ![Data pane](Maven_Market_DataPane.png)
 
 ### Part 2: Creating the Data Model
 Arrange tables in the model view and establish relationships between them.
 Hide foreign keys from the report view.
 Format date fields and other columns as required.
+
 ![Model view](Maven_Market_ModelView.png)
 ### Part 3: Adding DAX Measures
 Add calculated columns and measures to the model to enhance data analysis.
+
 ![Measures](Maven_Market_Measures.png)
 ### Part 4: Building the Report
 Create visualizations to analyze and visualize the data.
 Design the report layout and format visualizations as required.
+
 ![Page 1](Maven_Market_Page1.png)
 ### Report Contents
-Topline Performance dashboard
-Matrix showing Total Transactions, Total Profit, Profit Margin, and Return Rate by Product_Brand
-KPI Cards for Current Month Transactions, Total Profit, and Total Returns
-Map visual showing Total Transactions by store city
-Treemap visual breaking down Total Transactions by store country
-Line Chart showing Weekly Revenue Trending, Profits Trending, Returns Trending using field parameter.
-Gauge Chart showing Total Revenue against Revenue Target
+Topline Performance dashboard,
+Matrix showing Total Transactions, Total Profit, Profit Margin, and Return Rate by Product_Brand,
+KPI Cards for Current Month Transactions, Total Profit, and Total Returns,
+Map visual showing Total Transactions by store city,
+Treemap visual breaking down Total Transactions by store country,
+Line Chart showing Weekly Revenue Trending, Profits Trending, Returns Trending using field parameter,
+Gauge Chart showing Total Revenue against Revenue Target.
 #### Report Page Tooltip
 ![Tooltip](Maven_Market_tooltip.png)
 
